@@ -1,5 +1,5 @@
 document.getElementById('todo-form').addEventListener('submit', function(e) {
-    e.preventDefault(); // cegah reload halaman
+  e.preventDefault(); // cegah reload halaman
 
   const input = document.getElementById('todo-input');
   const task = input.value.trim();
